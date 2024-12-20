@@ -7,10 +7,8 @@ import React from "react";
 export default function Intro() {
   return (
     <section>
-      <div
-        className="flex items-center 
-            justify-center"
-      >
+      <div className="flex items-center 
+    justify-center">
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -48,6 +46,9 @@ export default function Intro() {
           </motion.div>
         </div>
       </div>
+      <p>
+          
+      </p>
     </section>
   );
 }
