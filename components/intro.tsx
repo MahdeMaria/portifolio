@@ -7,8 +7,10 @@ import React from "react";
 export default function Intro() {
   return (
     <section>
-      <div className="flex items-center 
-    justify-center">
+      <div
+        className="flex items-center 
+    justify-center"
+      >
         <div className="relative">
           <motion.div
             initial={{ opacity: 0, scale: 0 }}
@@ -46,9 +48,18 @@ export default function Intro() {
           </motion.div>
         </div>
       </div>
-      <p>
-          
-      </p>
+
+      <motion.h1
+        className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+        initial={{ opacity: 0, y: 100 }}
+        animate={{ opacity: 1, y: 0 }}
+      >
+        <span className="font-bold">Oii! Meu nome é Maria Eduarda.</span> Eu sou uma {" "}
+        <span className="font-bold">desenvolvedora fullStack</span> com{" "}
+        <span className="font-bold">2 anos</span> de experiência. Adoro
+        construir <span className="italic">sites & soluções</span>. O meu foco é {" "}
+        <span className="underline">React (Next.js)</span>.
+      </motion.h1>
     </section>
   );
 }
