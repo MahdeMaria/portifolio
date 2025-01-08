@@ -61,7 +61,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Oii! Meu nome é Maria Eduarda.</span> Eu sou
-        uma <span className="font-bold">desenvolvedora fullStack</span> com{" "}
+        uma <span className="font-bold">desenvolvedora FullStack</span> com{" "}
         <span className="font-bold">2 anos</span> de experiência. Sempre
         construindo
         <span className="italic">sites & soluções</span>.
